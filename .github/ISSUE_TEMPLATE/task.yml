@@ -1,0 +1,33 @@
+name: Задача (Task)
+description: Техническая задача, документация или настройка
+title: "[Task] "
+labels: ["type:task"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Цель задачи
+      description: Что нужно сделать и зачем?
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Критерии готовности (Definition of Done)
+      description: По каким пунктам поймём, что задача выполнена?
+      value: |
+        - [ ] ...
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Область проекта
+      options:
+        - area:client
+        - area:docs
+        - area:combat
+        - area:ui
+        - area:world
+        - area:audio
+        - area:tools

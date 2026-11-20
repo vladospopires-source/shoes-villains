@@ -1,0 +1,25 @@
+name: Новая фича (Feature)
+description: Предложение новой механики, системы или контента
+title: "[Feat] "
+labels: ["type:feature"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Описание фичи
+      description: Как это работает с точки зрения игрока или системы?
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: Референс (Helmet Heroes / Dead Cells)
+      description: На что опираемся из референсов и что адаптируем под нашу игру?
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Критерии приёмки
+      value: |
+        - [ ] ...
+    validations:
+      required: true

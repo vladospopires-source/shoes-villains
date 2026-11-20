@@ -1,0 +1,36 @@
+# Godot 4 ignores
+client/.godot/
+.godot/
+*.translation
+
+# Godot 4 Mono / C# (if used later)
+.mono/
+data_*/
+mono_crash.*.json
+
+# Builds & Exports
+builds/
+exports/
+*.exe
+*.pck
+*.apk
+*.aab
+*.dmg
+*.zip
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary & Logs
+*.tmp
+*.log
+.tmp/
