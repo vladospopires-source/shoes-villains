@@ -6,6 +6,7 @@
 
 GitHub используется как единый центр управления разработкой:
 
+- **Kanban-доска:** [Shoes Villains Board](https://github.com/users/vladospopires-source/projects/1) (`Backlog` → `Ready` → `In progress` → `In review` → `Done`)
 - **План и этапы:** [Milestones](../../milestones) (`M0: Foundation & Architecture`, `M1: Core Loop Prototype`, `M2: Vertical Slice`)
 - **Задачи и баги:** [Issues](../../issues) с шаблонами и метками (`area:*`, `type:*`, `priority:*`)
 - **Версии игры:** [Releases](../../releases) с тегами формата `vX.Y.Z`
